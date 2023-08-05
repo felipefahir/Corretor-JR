@@ -1,0 +1,196 @@
+header{
+background-color: rgb(0, 0, 0);
+
+display: flex; 
+justify-content: space-around;
+height: 50px;
+width: 800px;
+
+position: fixed;
+
+}
+header>h1{
+
+margin: auto;
+
+}
+
+#mais{
+  margin-top: 15px;
+  border-style: none;
+  border-radius: 110px;
+  width: 30px;
+  background-color: darkgoldenrod;
+  transition: 0.3s;
+  cursor: pointer;
+  
+  }
+
+  #mais:hover{
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 110px;
+    width: 30px;
+    background-color: darkgoldenrod;
+    transition: 0.3s;
+    cursor: pointer;
+    
+    }
+
+.link{
+margin-top: 15px;
+border-style: none;
+border-radius: 10px;
+width: 100px;
+background-color: darkgoldenrod;
+transition: 0.3s;
+cursor: pointer;
+display: none;
+}
+
+
+.link:hover{
+
+    border-style: double ;  
+    border-radius: 10px;
+    background-color: black;
+    color: darkgoldenrod;
+    height: 80px;
+    display: block;
+
+    }
+
+
+
+
+*{
+/* margin: 0px; */
+
+
+}
+header>h1{
+
+color: darkgoldenrod;
+
+
+}
+body{
+
+background-image: url(pexels-miguel-á-padriñán-194096.jpg); 
+background-size: cover;
+background-attachment: fixed;
+
+height: 2000px;
+
+}
+main>.quadro{
+
+  
+ 
+}
+
+
+
+
+main{
+ margin: auto;
+background-color: white;
+max-width: 800px  ;
+height: 2100px;
+border: 1px solid black; 
+border-radius: 16px;
+}
+#q1{
+  
+ padding-top: 100px;
+ background-attachment: fixed; 
+
+  width: 100%;
+height: 500px;
+background-image: url(pexels-photomix-company-101808.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#p1{
+font-size: xx-large;
+ font-style: italic;
+background-color: rgba(0, 0, 0, 0.384);
+border-radius: 16px;
+
+
+
+}
+
+
+
+#q2{
+  
+  padding-top: 100px;
+  background-attachment: fixed; 
+ 
+   width: 100%;
+ height: 500px;
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ #p2{
+ font-size: xx-large;
+  font-style: italic;
+ background-color: rgba(0, 0, 0, 0.384);
+ border-radius: 16px;
+ 
+ 
+ 
+ }
+
+
+
+
+
+#q3{
+  
+  padding-top: 100px;
+  background-attachment: fixed; 
+ 
+   width: 100%;
+ height: 500px;
+ background-image: url(pexels-the-lazy-artist-gallery-1642125.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ #p3{
+ font-size: xx-large;
+  font-style: italic;
+ background-color: rgba(0, 0, 0, 0.384);
+ border-radius: 16px;
+ color: darkgoldenrod
+ 
+ 
+ }
+
+ #q4{
+  
+  padding-top: 100px;
+  background-attachment: fixed; 
+ 
+   width: 100%;
+ height: 100px;
+ 
+ background-color: rgb(255, 255, 255);
+ background-size: cover;
+ }
+ #p4{
+ font-size: xx-large;
+  font-style: italic;
+ background-color: rgba(0, 0, 0, 0.384);
+ border-radius: 16px;
+ 
+ 
+ 
+ }
+
+
+
+
+
