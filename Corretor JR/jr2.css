@@ -1,0 +1,288 @@
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  main {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+      
+height: 2000px;
+
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  /* ---------------------------------- */
+
+
+  body{
+
+    background-image: url(pexels-henry-&-co-1939485.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    
+    height: 2000px;
+    
+    }
+    main>.quadro{
+    
+      
+     
+    }
+    
+    
+    
+    
+    main{
+     margin: auto;
+    background-color: white;
+    max-width: 800px  ;
+    height: 2100px;
+    border: 1px solid black; 
+    border-radius: 16px;
+    }
+    #q1{
+      
+     padding-top: 100px;
+     background-attachment: fixed; 
+    
+      width: 100%;
+    height: 500px;
+    background-image: url(pexels-photomix-company-101808.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #p1{
+    font-size: xx-large;
+     font-style: italic;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 16px;
+    
+    
+    
+    }
+    
+    
+    
+    #q2{
+      
+      padding-top: 100px;
+      background-attachment: fixed; 
+     
+       width: 100%;
+     height: 500px;
+     
+     background-repeat: no-repeat;
+     background-size: cover;
+     }
+     #p2{
+     font-size: xx-large;
+      font-style: italic;
+     background-color: rgba(0, 0, 0, 0.384);
+     border-radius: 16px;
+     
+     
+     
+     }
+    
+    
+    
+    
+    
+    #q3{
+      
+      padding-top: 100px;
+      background-attachment: fixed; 
+     
+       width: 100%;
+     height: 500px;
+     background-image: url(pexels-the-lazy-artist-gallery-1642125.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     }
+     #p3{
+     font-size: xx-large;
+      font-style: italic;
+     background-color: rgba(0, 0, 0, 0.384);
+     border-radius: 16px;
+     color: darkgoldenrod
+     
+     
+     }
+    
+     #q4{
+      
+      padding-top: 100px;
+      background-attachment: fixed; 
+     
+       width: 100%;
+     height: 100px;
+     
+     background-color: rgb(255, 255, 255);
+     background-size: cover;
+     }
+     #p4{
+     font-size: xx-large;
+      font-style: italic;
+     background-color: rgba(0, 0, 0, 0.384);
+     border-radius: 16px;
+     
+     
+     
+     }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
