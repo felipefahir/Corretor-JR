@@ -132,13 +132,17 @@ height: 2000px;
     }
 
 .bloco{
-background-color: rgba(143, 133, 133, 0.658);
-border: 3px  solid black ;
+background-color: rgb(245, 243, 243);
 height: 30vh;
-margin-top: 10vh;
-
-
+width: 98vh;
+margin-top: 2vh;
+margin-left: 50vh;
 }
 
+img{
+height: 80%;
+width: 40%;
+margin: 10px;
+}
 
     
