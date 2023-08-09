@@ -131,18 +131,44 @@ height: 2000px;
     
     }
 
+main{
+display: flex;
+justify-content: left;
+
+}
+
 .bloco{
 background-color: rgb(245, 243, 243);
-height: 30vh;
-width: 98vh;
+height: 45vh;
+width: 89vh;
 margin-top: 2vh;
-margin-left: 50vh;
+margin: 3vh;
+
 }
 
 img{
 height: 80%;
 width: 40%;
+border: 1px solid black;
 margin: 10px;
 }
 
+@media (max-width: 999px) {
+  main {
+    display: block;
+    
+  }
+.bloco{
+margin-left: 23vh;
+height: 80vh;
+width: 45vh;
+padding: 8px;
+}
+img{
+border: 1px solid black;
+height: 50%;
+width: 100%;
+margin: 0px;
+}
+}
     
