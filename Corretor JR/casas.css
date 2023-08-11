@@ -162,14 +162,46 @@ color: rgb(7, 3, 3);
 /* #lii{margin-top: 60px;} */
 
 img{
-  
+   position: relative;
+  overflow: hidden;
 height: 70%;
 width: 100%;
 /* border: 1px solid black; */
 /* margin-top: 10px;
 margin-left: 10px; */
 }
+img:active{
+zoom: inherit;
+border-radius: 10px;
+/* 
 
+.container {
+ 
+  width: 400px;
+  margin: 100px;
+}
+.container img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+*/
+}
 a>button{
 
 background-color: rgb(21, 190, 21);
@@ -183,12 +215,12 @@ width: 14vh;
 
 a>button:hover{
 
-  background-color: rgb(124, 167, 8);
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: green;
   border: 1px  solid black ;
   border-radius: 16px;
-  height: 5.5vh;
-  width: 13.5vh;
+  height: 6vh;
+  width: 14vh;
   transition: 0.3s;
 cursor: pointer;
 
