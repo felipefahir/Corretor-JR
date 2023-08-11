@@ -127,14 +127,14 @@ height: 2000px;
     background-size: cover;
     background-attachment: fixed;
     
-    height: 2000px;
+    /* height: 2000px; */
     
     }
 
 main{
 display: flex;
 
-justify-content: center;
+ justify-content: center; 
 }
 
 .bloco{
@@ -146,8 +146,10 @@ margin: 3vh;
 /* display: flex;  */
 text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+/* ------------- */
 }
+
+
 
 .ull{
 height: 30%;
@@ -162,46 +164,11 @@ color: rgb(7, 3, 3);
 /* #lii{margin-top: 60px;} */
 
 img{
-   position: relative;
-  overflow: hidden;
-height: 70%;
-width: 100%;
-/* border: 1px solid black; */
-/* margin-top: 10px;
-margin-left: 10px; */
-}
-img:active{
-zoom: inherit;
-border-radius: 10px;
-/* 
-
-.container {
  
-  width: 400px;
-  margin: 100px;
-}
-.container img {
-  max-width: 100%;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.container:hover img {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  height: 70%;
+width: 100%;
 }
 
-
-
-
-
-
-
-
-
-*/
-}
 a>button{
 
 background-color: rgb(21, 190, 21);
@@ -211,6 +178,14 @@ border-radius: 16px;
 height: 6vh;
 width: 14vh;
 
+
+position: relative;
+overflow: hidden;
+
+max-width: 100%;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
 }
 
 a>button:hover{
@@ -221,11 +196,14 @@ a>button:hover{
   border-radius: 16px;
   height: 6vh;
   width: 14vh;
-  transition: 0.3s;
 cursor: pointer;
 
-}
+-moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 
+
+}
 
 
 @media (max-width: 999px) {
@@ -245,5 +223,21 @@ height: 50%;
 width: 100%;
 margin: 0px;
 }
+
+a>button{
+
+  background-color: rgb(21, 190, 21);
+  color: aliceblue;
+  border: 1px  solid black ;
+  border-radius: 16px;
+  height: 6vh;
+  width: 14vh;
+  
+ 
+  }
+  
+  
+
+
 }
     
