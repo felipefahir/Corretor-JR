@@ -126,8 +126,41 @@ height: 2000px;
     background-size: cover;
     background-attachment: fixed;
     
-    height: 2000px;
+    
     
     }
+
     
+main{
+
+display: flex;
+
+}
+
+.bloco{
+
+background-color: rgb(255, 253, 253);
+height: 500px;
+width: 300px;
+margin: 10px;
+background-image: url(pexels-emre-can-acer-2079246.jpg);
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
