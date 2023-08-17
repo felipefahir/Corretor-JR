@@ -147,8 +147,31 @@ margin: 10px;
 background-image: url(pexels-emre-can-acer-2079246.jpg);
 background-size: cover;
 
-
+max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  border: 1px solid #000;
+  overflow: hidden;
 }
+
+.bloco:hover{
+
+  border-radius: 16px;
+  background-color: rgb(255, 253, 253);
+  height: 80vh;
+  width: 300px;
+  margin: 10px;
+  background-image: url(pexels-emre-can-acer-2079246.jpg) ;
+  background-size: cover;
+ 
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  
+  }
+  
 
 @media (max-width: 999px) {
   body {
