@@ -195,7 +195,7 @@ height: 2000px;
     #q3{
       
       padding-top: 100px;
-      background-attachment: fixed; 
+      background-attachment: scroll; 
       text-align: center;
        width: 100%;
      height: 500px;
@@ -204,6 +204,9 @@ height: 2000px;
      background-size: cover;
      
      }
+ #q3:hover{background-attachment: scroll;
+  } 
+
      #p3{
      font-size: xx-large;
       font-style: italic;
