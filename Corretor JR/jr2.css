@@ -63,6 +63,18 @@
     transition: 0.3s;
   }
   
+@media(min-width:999px){
+    #q1{background-attachment: fixed; 
+}
+#q3{
+
+  background-attachment: fixed; 
+
+}
+
+}
+
+
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
@@ -70,6 +82,12 @@
 height: 2000px;
 
     }
+
+    #q1{
+     background-attachment: local;
+    }
+
+
     .nav-list {
       position: absolute;
       top: 8vh;
@@ -141,26 +159,28 @@ height: 2000px;
     background-color: white;
     max-width: 800px  ;
     height: 2100px;
-    border: 1px solid black; 
-    border-radius: 0px;
+   
+   
     }
     #q1{
       text-align: center;
      padding-top: 100px;
-     background-attachment: fixed; 
-    
+     
       width: 100%;
     height: 500px;
     background-image: url(pexels-thirdman-7653977.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+
+
     #p1{
     font-size: xx-large;
      font-style: italic;
      background-color: rgba(0, 0, 0, 0.863);
     border-radius: 16px;
-    color: rgb(153, 147, 147)
+    color: rgb(255, 255, 255)
     
     
     }
@@ -181,9 +201,7 @@ height: 2000px;
      #p2{
      font-size: xx-large;
       font-style: italic;
-     background-color: rgba(0, 0, 0, 0.384);
-     border-radius: 16px;
-     
+    
      
      
      }
@@ -195,8 +213,7 @@ height: 2000px;
     #q3{
       
       padding-top: 100px;
-      background-attachment: scroll; 
-      text-align: center;
+      
        width: 100%;
      height: 500px;
      background-image: url(pexels-emre-can-acer-2079246.jpg);
@@ -204,15 +221,15 @@ height: 2000px;
      background-size: cover;
      
      }
- #q3:hover{background-attachment: scroll;
-  } 
+
+ 
 
      #p3{
      font-size: xx-large;
       font-style: italic;
      background-color: rgba(0, 0, 0, 0.863);
      border-radius: 16px;
-     color: rgb(153, 147, 147)
+     color: rgb(255, 255, 255)
      
      
      }
@@ -220,22 +237,16 @@ height: 2000px;
      #q4{
       
       padding-top: 100px;
-      background-attachment: fixed; 
       text-align: center;
        width: 100%;
      height: 100px;
      
      background-color: rgb(255, 255, 255);
-     background-size: cover;
+     
      }
      #p4{
      font-size: xx-large;
-      font-style: italic;
-     background-color: rgba(0, 0, 0, 0.384);
-     border-radius: 16px;
-     
-     
-     
+      font-style: italic;     
      }
     
     

@@ -104,41 +104,29 @@ height: 2000px;
       transform: translateX(0);
     }
   }
-  
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
-  
   .mobile-menu.active .line2 {
     opacity: 0;
   }
-  
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
-
   /* ---------------------------------- */
-
-
-  body{
-
-    background-image: linear-gradient( rgb(45, 45, 65), rgb(134, 134, 136), rgb(248, 247, 247) );
-    background-size: cover;
-    background-attachment: fixed;
-    
-    
-    
-    }
-
-    
-.mmain{
-
-display: flex;
-
+body{
+background-image: linear-gradient( rgb(45, 45, 65), rgb(134, 134, 136), rgb(248, 247, 247) );
+background-size: cover;
+background-attachment: fixed;
 }
-
-.bloco{
-
+@media (min-width: 999px){
+body{
+background-image: linear-gradient( rgb(45, 45, 65), rgb(134, 134, 136), rgb(248, 247, 247) );
+background-size: cover;
+background-attachment: fixed;       
+}
+.mmain{display: flex;} 
+.bloco{  
 border-radius: 16px;
 background-color: rgb(255, 253, 253);
 height: 80vh;
@@ -146,50 +134,38 @@ width: 280px;
 margin: 10px;
 background-image: url(pexels-emre-can-acer-2079246.jpg);
 background-size: cover;
-
 max-width: 100%;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  position: relative;
-  border: 1px solid #000;
-  overflow: hidden; 
-}
-
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+position: relative;
+border: 1px solid #000;
+overflow: hidden; 
+} 
 .bloco:hover{
-
-  border-radius: 16px;
-  background-color: rgb(255, 253, 253);
-  height: 75vh;
-  width: 230px;
-  margin: 10px;
-  background-image: url(pexels-emre-can-acer-2079246.jpg) ;
-  background-size: cover;
- 
-  -moz-transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-  
-  }
-  
-
-@media (max-width: 999px) {
-  body {
-    overflow-x: hidden;
-      
-    height: 2000px;
-
+border-radius: 16px;
+background-color: rgb(255, 253, 253);
+height: 75vh;
+width: 230px;
+margin: 10px;
+background-image: url(pexels-emre-can-acer-2079246.jpg) ;
+background-size: cover;
+-moz-transform: scale(0.9);
+-webkit-transform: scale(0.9);
+transform: scale(0.9);
+}
+}
+@media (max-width: 999px){
+body {
+overflow-x: hidden;
+height: 2000px;
   }
 main{
-
   flex-direction: column; 
   height: 2000px;
-
-
-
 }
 .bloco{
- 
+ border: #000 solid 1px;
   border-radius: 16px;
   background-color: rgb(255, 253, 253);
   height: 80vh;
@@ -197,30 +173,4 @@ main{
   margin: 10px;
   background-image: url(pexels-emre-can-acer-2079246.jpg);
   background-size: cover;
-  
-  max-width: 100%;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    position: relative;
-    border: 1px solid #000;
-    overflow: hidden; 
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+}}
