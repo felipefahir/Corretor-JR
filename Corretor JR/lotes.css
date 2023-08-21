@@ -166,11 +166,26 @@ main{
 }
 .bloco{
  border: #000 solid 1px;
-  border-radius: 16px;
   background-color: rgb(255, 253, 253);
-  height: 80vh;
-  width: 265px;
-  margin: 10px;
+  height: 40vh;
+  width: 95vh;
+  margin-top: 10px;
   background-image: url(pexels-emre-can-acer-2079246.jpg);
   background-size: cover;
-}}
+}
+
+.ull{
+  height:100% ;
+  width:100% ;  
+}
+
+.ull:hover{
+
+background-color: #0000ff6b;
+height:100% ;
+width:100% ;
+}
+
+
+
+}
