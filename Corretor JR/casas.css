@@ -211,14 +211,15 @@ cursor: pointer;
   }
 .bloco{
 display: flex;
-height:30vh;
-width: 85vh;
-padding: 8px;
+height:15vh;
+width: 50vh;
+margin: 0px;
+border-bottom:1px solid  gray ;
 }
 img{
-height: 100%;
-width: 50%;
-margin: 0px;
+height: 95%;
+width: 45%;
+padding: 2px;
 }
 }
     
