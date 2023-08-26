@@ -65,7 +65,7 @@
     body {
        overflow-x: hidden;
       
-height: 2000px;
+
 
     }
     .nav-list {
@@ -125,14 +125,14 @@ background-image: linear-gradient( rgb(45, 45, 65), rgb(134, 134, 136), rgb(248,
 background-size: cover;
 background-attachment: fixed;       
 }
-.mmain{display: flex;} 
-.bloco{  
+.mmain{display: flex;justify-content: center;} 
+#lote1{  
 border-radius: 16px;
 background-color: rgb(255, 253, 253);
 height: 80vh;
 width: 280px;
 margin: 10px;
-background-image: url(pexels-emre-can-acer-2079246.jpg);
+background-image: url(Torre\ metropolis.jpg);
 background-size: cover;
 max-width: 100%;
 -moz-transition: all 0.5s;
@@ -140,48 +140,128 @@ max-width: 100%;
 transition: all 0.5s;
 position: relative;
 border: 1px solid #000;
-overflow: hidden; 
+overflow: hidden; text-align: center
 } 
-.bloco:hover{
+#lote1:hover{
 border-radius: 16px;
 background-color: rgb(255, 253, 253);
 height: 75vh;
 width: 230px;
 margin: 10px;
-background-image: url(pexels-emre-can-acer-2079246.jpg) ;
+background-image: url(Metropolis.jpg) ;
 background-size: cover;
+background-position: center;
 -moz-transform: scale(0.9);
 -webkit-transform: scale(0.9);
 transform: scale(0.9);
+
 }
-}
+
+#lote2{  
+  border-radius: 16px;
+  background-color: rgb(255, 253, 253);
+  height: 80vh;
+  width: 280px;
+  margin: 10px;
+  background-image: url(Instacia\ do\ sol.jpg);
+  background-size: cover;
+  background-position: right;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  border: 1px solid #000;
+  overflow: hidden; 
+  text-align: center;
+  } 
+  #lote2:hover{
+  border-radius: 16px;
+  background-color: rgb(255, 253, 253);
+  height: 75vh;
+  width: 230px;
+  margin: 10px;
+  background-image: url(Dosol.jpg) ;
+  background-size: cover;
+  background-position: left;
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  }
+
+      }
+
+/* /////////////////////////////////////// */
 @media (max-width: 999px){
 body {
 overflow-x: hidden;
-height: 2000px;
   }
 main{
   flex-direction: column; 
+  text-align: center;
   height: 2000px;
 }
-.bloco{
+#lote1{
  border: #000 solid 1px;
   background-color: rgb(255, 253, 253);
   height: 40vh;
   width: 95vh;
   margin-top: 10px;
-  background-image: url(pexels-emre-can-acer-2079246.jpg);
+  background-image: url(Metropolis.jpg);
   background-size: cover;
+  background-position: center;
 }
 
+#lote2{
+  border: #000 solid 1px;
+   background-color: rgb(255, 253, 253);
+   height: 40vh;
+   width: 95vh;
+   margin-top: 10px;
+   background-image: url(Instacia\ do\ sol.jpg);
+   background-size: cover;
+   
+ }
+ /* #lote3{
+  border: #000 solid 1px;
+   background-color: rgb(255, 253, 253);
+   height: 40vh;
+   width: 95vh;
+   margin-top: 10px;
+   background-image: url(Metropolis.jpg);
+   background-size: cover;
+ }
+
+
+ #lote4{
+  border: #000 solid 1px;
+   background-color: rgb(255, 253, 253);
+   height: 40vh;
+   width: 95vh;
+   margin-top: 10px;
+   background-image: url(Metropolis.jpg);
+   background-size: cover;
+ }
+
+
+
+
+ */
+
+
+
+
+
+
 .ull{
-  height:100% ;
-  width:100% ;  
+background-color: #1e1e1fcc;
+height:100% ;
+width:100% ;  
 }
 
 .ull:hover{
 
-background-color: #0000ff6b;
+background-color: #0000ff00;
 height:100% ;
 width:100% ;
 }
