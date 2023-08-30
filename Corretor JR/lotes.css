@@ -147,6 +147,7 @@ border-radius: 16px;
 background-color: rgb(255, 253, 253);
 height: 75vh;
 width: 230px;
+
 margin: 10px;
 background-image: url(Metropolis.jpg) ;
 background-size: cover;
@@ -205,7 +206,7 @@ main{
  border: #000 solid 1px;
   background-color: rgb(255, 253, 253);
   height: 40vh;
-  width: 95vh;
+  width: 52vh;
   margin-top: 10px;
   background-image: url(Metropolis.jpg);
   background-size: cover;
@@ -216,7 +217,7 @@ main{
   border: #000 solid 1px;
    background-color: rgb(255, 253, 253);
    height: 40vh;
-   width: 95vh;
+   width: 52vh;
    margin-top: 10px;
    background-image: url(Instacia\ do\ sol.jpg);
    background-size: cover;
