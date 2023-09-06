@@ -32,6 +32,8 @@
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
     height: 8vh;
+    overflow-x: hidden;/* /////// */
+    
   }
   
   main {
@@ -77,7 +79,8 @@
 
   @media (max-width: 999px) {
     body {
-      overflow-x: hidden;
+      overflow-x: hidden; /* ////// */
+      
       
 height: 2000px;
 

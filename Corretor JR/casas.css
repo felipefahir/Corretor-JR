@@ -223,3 +223,8 @@ padding: 2px;
 }
 }
     
+iframe{
+position:relative;
+height:40vh ;
+width:73vh ;
+}
