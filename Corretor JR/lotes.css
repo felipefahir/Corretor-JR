@@ -190,6 +190,70 @@ transform: scale(0.9);
   transform: scale(0.9);
   }
 
+  #lote3{  
+    border-radius: 16px;
+    background-color: rgb(255, 253, 253);
+    height: 80vh;
+    width: 280px;
+    margin: 10px;
+    background-image: url(IMG-20230829-WA0063.jpg);
+    background-size: cover;
+    background-position: right;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden; 
+    text-align: center;
+    } 
+    #lote3:hover{
+    border-radius: 16px;
+    background-color: rgb(255, 253, 253);
+    height: 75vh;
+    width: 230px;
+    margin: 10px;
+    background-image: url(IMG-20230829-WA0062.jpg) ;
+    background-size: cover;
+    background-position: left;
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+  
+    #lote4{  
+      border-radius: 16px;
+      background-color: rgb(255, 253, 253);
+      height: 80vh;
+      width: 280px;
+      margin: 10px;
+      background-image: url(IMG_20230701_132606.jpg);
+      background-size: cover;
+      background-position: right;
+      max-width: 100%;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      position: relative;
+      border: 1px solid #000;
+      overflow: hidden; 
+      text-align: center;
+      } 
+      #lote4:hover{
+      border-radius: 16px;
+      background-color: rgb(255, 253, 253);
+      height: 75vh;
+      width: 230px;
+      margin: 10px;
+      background-image: url(IMG_20230701_132610.jpg) ;
+      background-size: cover;
+      background-position: left;
+      -moz-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      }
+
       }
 
 /* /////////////////////////////////////// */
@@ -223,31 +287,31 @@ main{
    background-size: cover;
    
  }
- /* #lote3{
+ #lote3{
   border: #000 solid 1px;
    background-color: rgb(255, 253, 253);
    height: 40vh;
-   width: 95vh;
+   width: 52vh;
    margin-top: 10px;
-   background-image: url(Metropolis.jpg);
+   background-image: url(IMG-20230829-WA0062.jpg);
    background-size: cover;
  }
 
 
  #lote4{
   border: #000 solid 1px;
-   background-color: rgb(255, 253, 253);
-   height: 40vh;
-   width: 95vh;
-   margin-top: 10px;
-   background-image: url(Metropolis.jpg);
-   background-size: cover;
+  background-color: rgb(255, 253, 253);
+  height: 40vh;
+  width: 52vh;
+  margin-top: 10px;
+  background-image: url(IMG_20230701_132610.jpg);
+  background-size: cover;
  }
 
 
 
 
- */
+ 
 
 
 

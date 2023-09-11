@@ -154,9 +154,9 @@ height: 2000px;
     
     }
     
-    
-    
-    
+    footer, footer>a{
+      color: purple; background-color: #23232e; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
+    }
     main{
      margin: auto;
     background-color: white;
