@@ -122,13 +122,12 @@ height: 2000px;
 
   body{
 
-    /* background-image: url(pexels-henry-&-co-1939485.jpg);  */
+    
     background-image: linear-gradient(rgb(248, 247, 247), rgb(134, 134, 136), rgb(45, 45, 65)  );
     background-size: cover;
     background-attachment: fixed;
     
-    /* height: 2000px; */
-    
+        
     }
 
 main{
@@ -186,6 +185,12 @@ max-width: 100%;
 transition: all 0.5s;
 }
 
+small{
+
+  font-size: small;
+
+}
+
 a>button:hover{
 
   background-color: rgb(255, 255, 255);
@@ -216,6 +221,22 @@ width: 51vh;
 margin: 0px;
 border-bottom:1px solid  rgb(197, 196, 196) ;
 }
+.ull{
+  height: 100%;
+  width: 100%;
+  list-style:none;
+  color: black;
+ font-size: xx-small;
+}
+
+li{
+overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+font-size: xx-small;
+}
+
 img{
 height: 95%;
 width: 45%;
